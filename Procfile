@@ -1,1 +1,0 @@
-web: java -jar target/mmartzbaseapp-0.0.1-SNAPSHOT.jar
