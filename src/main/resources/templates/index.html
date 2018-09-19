@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <title>Home</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
 <body>
 <p><a href="/about">Go to about</a></p>
 <p><a href="/greeting">Go to greeting</a></p>
